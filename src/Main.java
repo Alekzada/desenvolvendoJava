@@ -1,13 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+// Estrutura Principal --> Todo código Java deve ficar dentro de uma classe, por padrão começamos com a classe Main.
+public class Main {
+    // Método Main --> Este é o ponto de partida onde o computador começa a ler o
+    // seu programa.
+    public static void main(String[] args) {
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+        // Impressão --> O comando System.out.println serve para mostrar mensagens na
+        // tela (no console).
+        System.out.println("Hello and welcome!");
+
     }
 }
