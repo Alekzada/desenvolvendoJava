@@ -41,3 +41,4 @@ public class TiposBasicos {
         System.out.printf("Mensagem: %s%n", mensagemBoasVindas);
     }
 }
+
