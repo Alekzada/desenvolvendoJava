@@ -8,5 +8,8 @@ public class Main {
         // tela (no console).
         System.out.println("Hello and welcome!");
 
+        var idade = 127;
+        System.out.println(idade);
+        
     }
 }
