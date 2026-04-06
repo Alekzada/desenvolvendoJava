@@ -9,7 +9,6 @@ import java.util.Scanner;
  */
 
 public class ReceberEntradaUsuario {
-
     public static void main(String[] args) {
 
         // Scanner -> Recebe o valor digitado no terminal
@@ -22,7 +21,7 @@ public class ReceberEntradaUsuario {
         int idade = leituraTerminal.nextInt();
 
         System.out.printf("Seu nome é %s e você tem %d anos de idade.", nome, idade);
-    
+
         leituraTerminal.close();
     }
 }
